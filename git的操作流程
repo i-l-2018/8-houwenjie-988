@@ -1,3 +1,9 @@
 1.如果想上传文档点击upload files再从本地挑选即可
-2.如果是在GitHub上对文件进行了修改想同步到本地，需要在相应的本地文件右击选择“Git GUI Here”,再出现的对话框里选择Remote中Fetch from的origin, 出现success后点击close，再点击Merge中的local Merge，success后点击close即可
-3.如果是在本地文件做了修改想同步到GitHub上，需要在相应本地文件的文件夹右击选择选择“Git GUI Here”,单击Unstaged Changes 下的改变的文件夹，它会移到Staged Changes ， 然后点击Commit Changes，输入相关的改变内容，再点击Commit ，再点push，出现success即可
+2.如果是在GitHub上对文件进行了修改想同步到本地，,需要在相应的本地文件右击选择“Git GUI Here”再
+出现的对话框里选择Remote中Fetch from的origin, 出现success后点击close（将文件从远程仓库移动到
+本地仓库），再点击Merge中的local Merge，success后点击close即可（再从本地仓库移动到工作区，此过
+程不用经过暂存区）
+3.如果是在本地文件做了修改想同步到GitHub上，需要在相应本地文件的文件夹右击选择选择“Git GUI Here”
+,单击Unstaged Changes 下的改变的文件夹，它会移到Staged Changes （从工作区移动到暂存区）， 然后点
+击Commit Changes，输入相关的改变内容，再点击Commit（从暂存区移动到本地仓库） ，再点push，出现success
+即可（从本地仓库移动到远程仓库）
